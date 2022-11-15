@@ -7,6 +7,9 @@
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
  * [Q Netwrok Discord Kanalı](https://discord.gg/b5VXuvXN)
  
+  ### Explorer:
+ * [Explorer](https://discord.gg/b5VXuvXN)
+ 
  
  ### Faucet:
 
