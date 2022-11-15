@@ -8,6 +8,11 @@
  * [Q Netwrok Discord Kanalı](https://discord.gg/b5VXuvXN)
  
  
+ ### Faucet:
+
+ * [FAUCET](https://faucet.qtestnet.org/)
+ 
+ 
  ## Gerekli notlar:
 
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
