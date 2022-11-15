@@ -16,6 +16,7 @@
  ## Gerekli notlar:
 
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
+ * Tüm işlemler testnet-validator/ dizininde yapılması gerekiyor.
  
  ## Docker ve güncellemeler::
 
@@ -40,7 +41,9 @@ cd testnet-public-tools/testnet-validator/
 
 ## Klasör oluşumu ve şifre
 
-mkdir keystore  dosyası oluşturuyoruz <br> içine girip  pwd.txt dosyası oluşturuyoruz < ve içine şifre yazıyoruz. <br>Bu size vereceği matemask adresinin şifresi olacak.
+mkdir keystore  komutu ile klasör oluşturuyoruz <br> 
+içine girip  pwd.txt dosyası oluşturuyoruz ve içine şifre yazıyoruz. <br> 
+Bu size vereceği matemask adresinin şifresi olacak.
 
 
 ## Key şifre komutu giriyoruz
@@ -50,7 +53,7 @@ docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet g
 Böyle Bir çıktı almanız lazım
 Your new key was generated
 
-Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b52287dac
+Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b522aa  -  SİZE BÖYLE BİR MATEMASK ADRESİ VERECEK
 Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z--b3ff24f818b0ff6cc50de951bcb8f86b52287dac
 
 - You can share your public address with anyone. Others need it to interact with you.
@@ -63,7 +66,7 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 ```
 QCLIENT_IMAGE=qblockchain/q-client:testnet
 
-ADDRESS=7a30E012939Ed659fb19f7C23fb9ff0d987A0cB7  ( bir önceki komutta verdiği adresi yazıyoruz başında 0x olmayacak )
+ADDRESS=SİZE VERDİĞİ MATEMASK ADRESİNİ YAZIN  ( bir önceki komutta verdiği adresi yazıyoruz başında 0x olmayacak )
 
 IP=İPADRESİNİZİ YAZIN
 
