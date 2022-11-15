@@ -19,7 +19,7 @@
  ## Gerekli notlar:
 
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
- * Tüm işlemler testnet-validator/ dizininde yapılması gerekiyor.
+ * 1. İŞLEM testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
 
  ## Kurulumlar:
