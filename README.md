@@ -1,5 +1,5 @@
 <h1 align="center"> Q-Network-Testnet </h1>
-<h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi:
+<h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi by Hercules - Scannerx
 </h1>
 
 ### Linkler:
