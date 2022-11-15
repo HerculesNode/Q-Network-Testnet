@@ -83,6 +83,10 @@ BOOTNODE3_ADDR=enode://7a8ade64b79961a7752daedc4104ca4b79f1a67a10ea5c9721e7115d8
 
 ## config dosyanızı düzenleyin config.json DOSYASI Aşağıdaki şekilde yapıp kaydedin
 
+testnet-validator dizininde olduğunuzdan emin olun değilseniz  cd testnet-public-tools/testnet-validator/  komutunu kullanın daha sonar aşağıdan config dosyanızı açın <br>
+nano config.json
+<br> gerekli yerleri değiştirin ctrl +x y diyip kaydedin
+
  {<br>
       "address": "SİZE VERİLEN MATEMASK ADRESİ",<br>
       "password": "GİRDİĞİNİZ ŞİFRE",<br>
