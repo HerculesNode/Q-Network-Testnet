@@ -178,4 +178,8 @@ docker-compose up -d
 ```
 <br> loglar akmaya başladığında ctrl a + d ile çıkın
 
-
+<br>
+Şimdilik bukadar Teşekkürler hercules
+<br>
+https://stats.qtestnet.org/   
+Buraa validatör isminizi görmeniz lazım
