@@ -20,6 +20,15 @@
 
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
  * Tüm işlemler testnet-validator/ dizininde yapılması gerekiyor.
+ * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
+
+ ## Kurulumlar:
+
+ *1 /valitador . <br>
+ *2 /omnibridge-oracle.  <br>
+ *3 /omnibridge-ui. <br>
+ *4 /omnibridge-alm <br>
+
  
  ## Docker ve güncellemeler::
 
@@ -32,7 +41,7 @@ apt-get update
 apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-## Git clone çekiyoruz
+## 1. KURULUM Git clone çekiyoruz
 ```
 git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
@@ -118,7 +127,55 @@ entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:<TESTNET-KEYİNİZ>@st
 docker-compose up -d
 ```
 
-## Düğümü izle
+## 2 . Kurulum omnibridge-oracle
 ```
+cd omnibridge-oracle
+cp .env.testnet .env
+```
+<br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
+
+1 - ORACLE_VALIDATOR_ADDRESS  (buraya size verilen matemask adresini yazın ) <br>
+2 - ORACLE_VALIDATOR_ADDRESS_PRIVATE_KEY  ( Matemask adresinin private keyi ) <br>
+3 - COMMON_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+
+```
+docker-compose up -d
+screen -S oracle
 docker-compose logs -f --tail "100"
 ```
+<br> loglar akmaya başladığında ctrl a + d ile çıkın
+
+
+## 3 . Kurulum OmniBridge-UI
+```
+cd ../omnibridge-ui
+cp .env.testnet .env
+```
+<br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
+
+1 - REACT_APP_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+
+```
+docker-compose up -d
+
+```
+<br> loglar akmaya başladığında ctrl a + d ile çıkın
+
+
+## 4 . Kurulum Omnibridge-ALM
+```
+cd ../omnibridge-alm
+cp .env.testnet .env
+```
+<br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
+
+1 - PORT  ( 8090 oluyor ama isterseniz değiştirin ben 8091 yaptım )  <br>
+2 - COMMON_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+
+```
+docker-compose up -d
+
+```
+<br> loglar akmaya başladığında ctrl a + d ile çıkın
+
+
