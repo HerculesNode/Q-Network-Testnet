@@ -49,7 +49,7 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 
 
-## Key şifre komutu giriyoruz
+## Kurulumu Yapılandırıyoruz
 ```
 QCLIENT_IMAGE=qblockchain/q-client:testnet
 
