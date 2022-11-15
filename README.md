@@ -182,4 +182,4 @@ docker-compose up -d
 Şimdilik bukadar Teşekkürler hercules
 <br>
 https://stats.qtestnet.org/   
-Buraa validatör isminizi görmeniz lazım
+Burada validatör isminizi görmeniz lazım
