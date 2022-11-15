@@ -100,6 +100,19 @@ nano config.json
 docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
 ```
 
+
+## Doğrulayıcınızı https://stats.qtestnet.org adresine ekleyin
+
+Discord üzerinden Admine Dm atın <Testnet_access_key>  yazarak key isteyin. Size bir key verecek verdiği keyi nano docker-compose.yaml ile ilgili dosyaya girin ve ilgili yeri değiştirin.  entrypoint kısmını aşağıdaki şekilde değiştirin <> İşaretleri olmayacak  
+
+<br>
+Değiştirmeniz gereken yer VALİDATÖR-İSMİNİZ  ve  TESTNET-KEYİNİZ  bu ikisini değiştirip kaydedin
+ 
+```
+entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:<TESTNET-KEYİNİZ>@stats.qtestnet.org", "--datadir=/data", "--nat=extip:$IP", "--port=$EXT_PORT", "--unlock=$ADDRESS",  "--password=/data/keystore/pwd.txt", "--mine", "--miner.threads=1", "--syncmode=full", "--rpc.allow-unprotected-txs", "--testnet", "--verbosity=3", "--miner.gasprice=1"]
+```
+
+
 ## Düğümü Başlat
 ```
 docker-compose up -d
