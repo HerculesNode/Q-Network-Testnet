@@ -97,7 +97,7 @@ nano config.json
 <br> gerekli yerleri değiştirin ctrl +x y diyip kaydedin
 
  {<br>
-      "address": "SİZE VERİLEN MATEMASK ADRESİ",<br>
+      "address": "SİZE VERİLEN MATEMASK ADRESİ 0X OLMAYACAK BAŞINDA",<br>
       "password": "GİRDİĞİNİZ ŞİFRE",<br>
       "keystoreDirectory": "/data",<br>
       "rpc": "https://rpc.qtestnet.org"<br>
