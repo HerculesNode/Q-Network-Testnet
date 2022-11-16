@@ -45,6 +45,7 @@ apt-get install docker-ce docker-ce-cli containerd.io
 
 ## 🟢 1. KURULUM Git clone çekiyoruz
 ```
+screen -S qnetwork
 git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
 
@@ -143,12 +144,12 @@ apt install docker-compose
 ```
 docker-compose logs -f --tail "100"
 ```
-
+CTRL + A
 
 
 ## 🟢 2 . Kurulum omnibridge-oracle
 ```
-cd omnibridge-oracle
+cd ../omnibridge-oracle
 cp .env.testnet .env
 ```
 <br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
