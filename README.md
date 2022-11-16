@@ -109,8 +109,9 @@ nano config.json
       "keystoreDirectory": "/data",<br>
       "rpc": "https://rpc.qtestnet.org"<br>
     }
-
-
+<br>
+<img src="https://github.com/herculessx/Q-Network-Testnet/blob/main/conf.png" width="650">
+<br>
 ## 🟢 Doğrulayıcılar Sözleşmesine Pay Koy
 ```
 docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
