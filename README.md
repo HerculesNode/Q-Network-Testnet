@@ -23,6 +23,7 @@
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
+ * https://app.infura.io/  sitesine üye oluyoruz goerli Testnet RPC linkini alacağız.
 
  ## 🟢 Kurulumlar:
 
