@@ -144,12 +144,12 @@ apt install docker-compose
 ```
 docker-compose logs -f --tail "100"
 ```
-CTRL + A
+<br>CTRL + A + D ile ana ekrana dönelim 
 
 
 ## 🟢 2 . Kurulum omnibridge-oracle
 ```
-cd ../omnibridge-oracle
+cd testnet-public-tools/omnibridge-oracle/
 cp .env.testnet .env
 ```
 <br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
