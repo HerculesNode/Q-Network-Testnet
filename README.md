@@ -98,6 +98,16 @@ testnet-public-tools/testnet-validator/  Dizininde bulunan  " .env "  dosyasın�
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
 
 
+
+## 🟢 Matemask Cüzdan aktarma
+
+testnet-public-tools/testnet-validator/keystore/ Dizininde UTC ile başlayan bir json dosyası göreceksiniz bunu bilgisayarınıza indirin. 
+<br> Daha sonra Matemask cüzdanınızı açın ve içine json olarak import edin
+<br> daha Sonra bu cüzdanın private keyini alın.
+
+
+
+
 ## 🟢 config dosyanızı düzenleyin config.json DOSYASI Aşağıdaki şekilde yapıp kaydedin
 
 testnet-validator dizininde olduğunuzdan emin olun değilseniz  cd testnet-public-tools/testnet-validator/  komutunu kullanın daha sonar aşağıdan config dosyanızı açın <br>
