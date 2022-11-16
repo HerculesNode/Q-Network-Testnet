@@ -104,6 +104,9 @@ testnet-public-tools/testnet-validator/  Dizininde bulunan  " .env "  dosyasın�
 testnet-public-tools/testnet-validator/keystore/ Dizininde UTC ile başlayan bir json dosyası göreceksiniz bunu bilgisayarınıza indirin. 
 <br> Daha sonra Matemask cüzdanınızı açın ve içine json olarak import edin
 <br> daha Sonra bu cüzdanın private keyini alın.
+<br> Aşağıdaki 2 . Kurulum omnibridge-oracle  Bölümünde bu private key lazım olacak.
+
+<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/utc.PNG" width="650">
 
 
 
