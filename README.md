@@ -177,7 +177,6 @@ cp .env.testnet .env
 docker-compose up -d
 
 ```
-<br> loglar akmaya başladığında ctrl a + d ile çıkın
 
 
 ## 4 . Kurulum Omnibridge-ALM
@@ -194,13 +193,17 @@ cp .env.testnet .env
 docker-compose up -d
 
 ```
-<br> loglar akmaya başladığında ctrl a + d ile çıkın
+
 
 <br>
-Şimdilik bukadar Teşekkürler hercules
+Şimdilik bukadar Teşekkürler 
 <br>
 https://stats.qtestnet.org/   
-Burada validatör isminizi görmeniz lazım<br>
+Burada validatör isminizi görmeniz lazım<br><br>
+
+🟢 - senkronize, çok sayıda akranı var<br>
+🟡 - senkronize ediliyor, bazı eşler var <br>
+🔴 - henüz senkronize edilmedi / az sayıda eşe sahip<br>
 
 
 
