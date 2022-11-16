@@ -127,6 +127,17 @@ entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:<TESTNET-KEYİNİZ>@st
 docker-compose up -d
 ```
 
+Eğer komut çalışmaz ise bu komutu girip install yapın daha sonra tekrar başlatma komutunu girin
+<br>
+apt install docker-compose
+
+## Düğümü izle
+```
+docker-compose logs -f --tail "100"
+```
+
+
+
 ## 2 . Kurulum omnibridge-oracle
 ```
 cd omnibridge-oracle
