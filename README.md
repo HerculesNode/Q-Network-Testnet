@@ -196,3 +196,25 @@ https://stats.qtestnet.org/
 Burada validatör isminizi görmeniz lazım<br>
 
 
+
+## Güncelleme Geldiğinde uygulanacak Komut
+
+1- Geçerli kök düğümü durdurun ve birimi silin
+
+```
+docker-compose down -v
+```
+<br>
+2- En son yapılandırmaları çekin
+
+```
+git pull
+```
+<br>
+3- En son docker görüntülerini çekin (ve üzerine yazın)
+
+```
+docker-compose pull
+```
+<br>
+4- Yeni yapılandırmalar ve resimlerle yeniden başlatın
