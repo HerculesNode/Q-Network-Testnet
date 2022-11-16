@@ -224,8 +224,11 @@ git pull
 docker-compose pull
 ```
 <br>
-4- Yeni yapılandırmalar ve resimlerle yeniden başlatın
 
+4- Yeni yapılandırmalar ve resimlerle yeniden başlatın
+```
+docker-compose up -d
+```
 
 
 ## ip kontrol
