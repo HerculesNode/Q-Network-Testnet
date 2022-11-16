@@ -3,28 +3,28 @@
 <h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi by Hercules - Scannerx
 </h1>
 
-### Linkler:
+### 🟢 Linkler:
 
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
  * [Q Netwrok Discord Kanalı](https://discord.gg/b5VXuvXN)
  * [Q Netwrok Twitter Kanalı](https://twitter.com/QBlockchain)
  
-  ### Explorer:
+  ### 🟢 Explorer:
  * [Explorer](https://explorer.qtestnet.org/)
  
  
- ### Faucet:
+ ### 🟢 Faucet:
 
  * [FAUCET](https://faucet.qtestnet.org/)
  
  
- ## Gerekli notlar:
+ ## 🟢 Gerekli notlar:
 
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
 
- ## Kurulumlar:
+ ## 🟢 Kurulumlar:
 
  *1 /valitador . <br>
  *2 /omnibridge-oracle.  <br>
@@ -32,7 +32,7 @@
  *4 /omnibridge-alm <br>
 
  
- ## Docker ve güncellemeler::
+ ## 🟢 Docker ve güncellemeler::
 
 ```
 apt update && apt upgrade
@@ -43,24 +43,24 @@ apt-get update
 apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-## 1. KURULUM Git clone çekiyoruz
+## 🟢 1. KURULUM Git clone çekiyoruz
 ```
 git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
 
-## ilgili klasöre giriyoruz
+## 🟢 ilgili klasöre giriyoruz
 ```
 cd testnet-public-tools/testnet-validator/
 ```
 
-## Klasör oluşumu ve şifre
+## 🟢 Klasör oluşumu ve şifre
 
 mkdir keystore  komutu ile klasör oluşturuyoruz <br> 
 içine girip  pwd.txt dosyası oluşturuyoruz ve içine şifre yazıyoruz. <br> 
 Bu size vereceği matemask adresinin şifresi olacak.
 
 
-## Key şifre komutu giriyoruz
+## 🟢 Key şifre komutu giriyoruz
 ```
 docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet geth account new --datadir=/data --password=/data/keystore/pwd.txt
 ```
@@ -76,7 +76,7 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 
 
-## Kurulumu Yapılandırıyoruz
+## 🟢 Kurulumu Yapılandırıyoruz
 ```
 QCLIENT_IMAGE=qblockchain/q-client:testnet
 
@@ -97,7 +97,7 @@ testnet-public-tools/testnet-validator/  Dizininde bulunan  " .env "  dosyasın�
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
 
 
-## config dosyanızı düzenleyin config.json DOSYASI Aşağıdaki şekilde yapıp kaydedin
+## 🟢 config dosyanızı düzenleyin config.json DOSYASI Aşağıdaki şekilde yapıp kaydedin
 
 testnet-validator dizininde olduğunuzdan emin olun değilseniz  cd testnet-public-tools/testnet-validator/  komutunu kullanın daha sonar aşağıdan config dosyanızı açın <br>
 nano config.json
@@ -111,13 +111,13 @@ nano config.json
     }
 
 
-## Doğrulayıcılar Sözleşmesine Pay Koy
+## 🟢 Doğrulayıcılar Sözleşmesine Pay Koy
 ```
 docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
 ```
 
 
-## Doğrulayıcınızı https://stats.qtestnet.org adresine ekleyin
+## 🟢 Doğrulayıcınızı https://stats.qtestnet.org adresine ekleyin
 
 Discord üzerinden Admine Dm atın <Testnet_access_key>  yazarak key isteyin. Size bir key verecek verdiği keyi nano docker-compose.yaml ile ilgili dosyaya girin ve ilgili yeri değiştirin.  entrypoint kısmını aşağıdaki şekilde değiştirin <> İşaretleri olmayacak  
 
@@ -129,7 +129,7 @@ entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:<TESTNET-KEYİNİZ>@st
 ```
 
 
-## Düğümü Başlat
+## 🟢 Düğümü Başlat
 ```
 docker-compose up -d
 ```
@@ -138,14 +138,14 @@ Eğer komut çalışmaz ise bu komutu girip install yapın daha sonra tekrar ba�
 <br>
 apt install docker-compose
 
-## Düğümü izle
+## 🟢 Düğümü izle
 ```
 docker-compose logs -f --tail "100"
 ```
 
 
 
-## 2 . Kurulum omnibridge-oracle
+## 🟢 2 . Kurulum omnibridge-oracle
 ```
 cd omnibridge-oracle
 cp .env.testnet .env
@@ -164,7 +164,7 @@ docker-compose logs -f --tail "100"
 <br> loglar akmaya başladığında ctrl a + d ile çıkın
 
 
-## 3 . Kurulum OmniBridge-UI
+## 🟢 3 . Kurulum OmniBridge-UI
 ```
 cd ../omnibridge-ui
 cp .env.testnet .env
@@ -179,7 +179,7 @@ docker-compose up -d
 ```
 
 
-## 4 . Kurulum Omnibridge-ALM
+## 🟢 4 . Kurulum Omnibridge-ALM
 ```
 cd ../omnibridge-alm
 cp .env.testnet .env
@@ -207,7 +207,7 @@ Burada validatör isminizi görmeniz lazım<br><br>
 
 
 
-## Güncelleme Geldiğinde uygulanacak Komut
+## 🟢 Güncelleme Geldiğinde uygulanacak Komut
 
 1- Geçerli kök düğümü durdurun ve birimi silin
 
@@ -234,7 +234,7 @@ docker-compose up -d
 ```
 
 
-## ip kontrol
+## 🟢 ip kontrol
 <BR>
 http://IPADRESİNİZ:8080/
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
