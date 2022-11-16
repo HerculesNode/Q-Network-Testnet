@@ -221,3 +221,10 @@ docker-compose pull
 ```
 <br>
 4- Yeni yapılandırmalar ve resimlerle yeniden başlatın
+
+
+
+## ip kontrol
+<BR>
+http://IPADRESİNİZ:8080/
+
