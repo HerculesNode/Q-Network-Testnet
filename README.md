@@ -92,6 +92,8 @@ BOOTNODE3_ADDR=enode://7a8ade64b79961a7752daedc4104ca4b79f1a67a10ea5c9721e7115d8
 <br>
 testnet-public-tools/testnet-validator/  Dizininde bulunan  " .env "  dosyasını açın ve yukarda girdiğiniz bilgiler varmı diye kontrol edin yoksa dosya üzerinden girin ve kaydedin.
 
+<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
+
 
 ## config dosyanızı düzenleyin config.json DOSYASI Aşağıdaki şekilde yapıp kaydedin
 
