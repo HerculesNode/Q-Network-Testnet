@@ -227,4 +227,4 @@ docker-compose pull
 ## ip kontrol
 <BR>
 http://IPADRESİNİZ:8080/
-
+<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
