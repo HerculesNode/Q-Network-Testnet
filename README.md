@@ -140,13 +140,29 @@ docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain
 
 ## 🟢 Doğrulayıcınızı https://stats.qtestnet.org adresine ekleyin
 
-Discord üzerinden Admine Dm atın <Testnet_access_key>  yazarak key isteyin. Size bir key verecek verdiği keyi nano docker-compose.yaml ile ilgili dosyaya girin ve ilgili yeri değiştirin.  entrypoint kısmını aşağıdaki şekilde değiştirin <> İşaretleri olmayacak  
+nano docker-compose.yaml ile ilgili dosyaya girin aşağıdaki kod ile komple değiştirin <> İşaretleri olmayacak  
 
 <br>
-Değiştirmeniz gereken yer VALİDATÖR-İSMİNİZ  ve  TESTNET-KEYİNİZ  bu ikisini değiştirip kaydedin
+Değiştirmeniz gereken yer VALİDATÖR-İSMİNİZ  değiştirip kaydedin
  
 ```
-entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:<TESTNET-KEYİNİZ>@stats.qtestnet.org", "--datadir=/data", "--nat=extip:$IP", "--port=$EXT_PORT", "--unlock=$ADDRESS",  "--password=/data/keystore/pwd.txt", "--mine", "--miner.threads=1", "--syncmode=full", "--rpc.allow-unprotected-txs", "--testnet", "--verbosity=3", "--miner.gasprice=1"]
+version: "3"
+
+services:
+  testnet-validator-node:
+    image: $QCLIENT_IMAGE
+    entrypoint: ["geth", "--ethstats=<VALİDATÖR-İSMİNİZ>:qstats-testnet@stats.qtestnet.org", "--bootnodes=$BOOTNODE1_ADDR", "--datadir=/data", "--nat=extip:$IP", "--port=$EXT_PORT", "--unlock=$ADDRESS",  "--password=/data/keystore/pwd.txt", "--mine", "--miner.threads=1", "--syncmode=full", "--rpc.allow-unprotected-txs", "--testnet", "--verbosity=3", "--miner.gasprice=1"]
+    volumes:
+      - ./keystore:/data/keystore
+      - ./additional:/data/additional
+      - testnet-validator-node-data:/data
+    ports:
+    - $EXT_PORT:$EXT_PORT/tcp
+    - $EXT_PORT:$EXT_PORT/udp
+    restart: unless-stopped
+
+volumes:
+  testnet-validator-node-data:
 ```
 
 
