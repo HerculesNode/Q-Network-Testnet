@@ -48,7 +48,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 apt-get update
 apt-get install docker-ce docker-ce-cli containerd.io
 ```
-<br>
+
 ## 🟢 1. KURULUM Git clone çekiyoruz
 ```
 screen -S qnetwork
