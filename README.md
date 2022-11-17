@@ -74,7 +74,7 @@ docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet g
 Böyle Bir çıktı almanız lazım <br>
 Your new key was generated
 
-Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b522aa  -  <b>SİZE BÖYLE BİR MATEMASK ADRESİ VERECEK</b>
+Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b522aa  -  <b>SİZE BÖYLE BİR MATEMASK ADRESİ VERECEK</b><br>
 Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z--b3ff24f818b0ff6cc50de951bcb8f86b52287dac
 
 - You can share your public address with anyone. Others need it to interact with you.
