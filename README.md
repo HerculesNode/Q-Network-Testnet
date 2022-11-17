@@ -265,11 +265,11 @@ http://IPADRESİNİZ:8080/
 
  Aşağıdaki adresten borç verme borç alma işlemlerini yapın ayrıca validatör stake işlemlerini gerçekleştirin.
  <BR>
- https://hq.qtestnet.org/
-  <BR>BR>
+ https://hq.qtestnet.org/ 
+<BR>
 
 Buradan Qdai , QUSD , QBTC 
-<BR>BR>
+<BR>
     
 Aşağıdaki Formu doldurun
 https://docs.google.com/forms/u/0/d/e/1FAIpQLSeet42006F_SZGlJC8UmdLvL2DrgYzTMM2jun928kiHMmBXBQ/alreadyresponded
