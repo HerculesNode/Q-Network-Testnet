@@ -259,3 +259,18 @@ docker-compose up -d
 <BR>
 http://IPADRESİNİZ:8080/
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
+ 
+ 
+ ## 🟢 Diğer Yapılması Gerekenler
+
+ Aşağıdaki adresten borç verme borç alma işlemlerini yapın ayrıca validatör stake işlemlerini gerçekleştirin.
+ <BR>
+ https://hq.qtestnet.org/
+  <BR>BR>
+
+Buradan Qdai , QUSD , QBTC 
+   
+   <BR>BR>
+    
+Aşağıdaki Formu doldurun
+https://docs.google.com/forms/u/0/d/e/1FAIpQLSeet42006F_SZGlJC8UmdLvL2DrgYzTMM2jun928kiHMmBXBQ/alreadyresponded
