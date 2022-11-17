@@ -27,10 +27,10 @@
 
  ## 🟢 Kurulumlar:
 
- *1 /valitador . <br>
- *2 /omnibridge-oracle.  <br>
- *3 /omnibridge-ui. <br>
- *4 /omnibridge-alm <br>
+ *1 testnet-public-tools/testnet-validator  <br>
+ *2 testnet-public-tools/omnibridge-oracle  <br>
+ *3 testnet-public-tools/omnibridge-ui <br>
+ *4 testnet-public-tools/omnibridge-alm <br>
 
  
  ## 🟢 Docker ve güncellemeler::
