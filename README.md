@@ -149,11 +149,11 @@ Aşağıdaki yerleri düzenliyoruz;
  - `SIFRE` bölümüne sifrenizi.
  - Son olarak `ctrl x y enter` tuşlayarak dosyayı kaydediyoruz.
 ```
- {<br>
-      "address": "METAMASK_ADRESI",<br>
+ {
+      "address": "METAMASK_ADRESI",
       "password": "SIFRE",<br>
-      "keystoreDirectory": "/data",<br>
-      "rpc": "https://rpc.qtestnet.org"<br>
+      "keystoreDirectory": "/data",
+      "rpc": "https://rpc.qtestnet.org"
     }
 ```
 
