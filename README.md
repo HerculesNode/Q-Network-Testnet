@@ -1,6 +1,6 @@
 <h1 align="center"> <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/FhOBhnLXkAkp0Bk.jpg" width="650"></h1>
 <h1 align="center"> QBlockchain-Testnet </h1>
-<h1 align="center"> Selamlar,  QBlockChain Teşvikli Testnet Kurulum rehberi <br>Rehberi Hazırlaıan Hercules - Scannerx
+<h1 align="center"> Selamlar,  QBlockChain Teşvikli Testnet Kurulum rehberi <br>Rehberi Hazırlayan Hercules
 </h1>
 
 ### 🟢 Linkler:
@@ -8,11 +8,11 @@
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
  * [QBlockchain Discord Kanalı](https://discord.gg/b5VXuvXN)
  * [QBlockchain Twitter Kanalı](https://twitter.com/QBlockchain)
- 
+ <br><br>
   ### 🟢 Explorer:
  * [Explorer](https://explorer.qtestnet.org/)
  
- 
+ <br><br>
  ### 🟢 Faucet:
 
  * [FAUCET](https://faucet.qtestnet.org/)
