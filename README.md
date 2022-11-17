@@ -12,12 +12,11 @@
   ### 🟢 Explorer:
  * [Explorer](https://explorer.qtestnet.org/)
  
- <br><br>
+
  ### 🟢 Faucet:
 
  * [FAUCET](https://faucet.qtestnet.org/)
- 
- <br>
+
  
  ## 🟢 Gerekli notlar:
 
@@ -25,7 +24,7 @@
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
  * https://app.infura.io/  sitesine üye oluyoruz goerli Testnet RPC linkini alacağız.
-<br>
+
  ## 🟢 Kurulumlar:
 
  *1 testnet-public-tools/testnet-validator  <br>
@@ -33,11 +32,11 @@
  *3 testnet-public-tools/omnibridge-ui <br>
  *4 testnet-public-tools/omnibridge-alm <br>
 
- <br>
+
  ## 🟢 Docker ve güncellemeler::
 
 Eğer  Sunucunuzda Docker yoksa önce kurulum yapmanız gerekiyor 
-<br>
+
 ```
 apt update && apt upgrade
 apt install git
