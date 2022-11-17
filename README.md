@@ -23,7 +23,7 @@
  * Testnet Teşvikli olduğunu söylüyorlar Sitesinden inceleyebilirsiniz. 
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
- * https://app.infura.io/  sitesine üye oluyoruz goerli Testnet RPC linkini alacağız.
+ * ( https://rpc.ankr.com/eth_rinkeby  ) Rinkeby Testnet RPC ekleyeceğiz
 
  ## 🟢 Kurulumlar:
 
@@ -191,7 +191,7 @@ cp .env.testnet .env
 
 1 - ORACLE_VALIDATOR_ADDRESS  (buraya size verilen matemask adresini yazın ) <br>
 2 - ORACLE_VALIDATOR_ADDRESS_PRIVATE_KEY  ( Matemask adresinin private keyi ) <br>
-3 - COMMON_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+3 - COMMON_FOREIGN_RPC_URL  ( https://rpc.ankr.com/eth_rinkeby  )  Bunu yazıp kaydedin
 
 ```
 docker-compose up -d
@@ -208,7 +208,7 @@ cp .env.testnet .env
 ```
 <br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
 
-1 - REACT_APP_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+1 - REACT_APP_FOREIGN_RPC_URL  ( https://rpc.ankr.com/eth_rinkeby  ) <br>
 
 ```
 docker-compose up -d
@@ -224,7 +224,7 @@ cp .env.testnet .env
 <br> .env adında dosya oluşacak bunu açıyoruz ister nano .env  isterseniz direk programla açın  <br>
 
 1 - PORT  ( 8090 oluyor ama isterseniz değiştirin ben 8091 yaptım )  <br>
-2 - COMMON_FOREIGN_RPC_URL  ( infura.io üye olup goerli testnet rpc alın forta kuranlar bilir ) örnek : https://goerli.infura.io/v3/0b15cc96dc0d <br>
+2 - COMMON_FOREIGN_RPC_URL  ( https://rpc.ankr.com/eth_rinkeby  ) <br>
 
 ```
 docker-compose up -d
