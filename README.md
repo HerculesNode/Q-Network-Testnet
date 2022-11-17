@@ -71,7 +71,7 @@ Bu size vereceği matemask adresinin şifresi olacak.
 ```
 docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet geth account new --datadir=/data --password=/data/keystore/pwd.txt
 ```
-Böyle Bir çıktı almanız lazım <br>
+<b>Böyle Bir çıktı almanız lazım</b> <br><br>
 Your new key was generated
 
 Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b522aa  -  <b>SİZE BÖYLE BİR MATEMASK ADRESİ VERECEK</b><br>
