@@ -17,6 +17,7 @@
 
  * [FAUCET](https://faucet.qtestnet.org/)
  
+ <br>
  
  ## 🟢 Gerekli notlar:
 
@@ -24,7 +25,7 @@
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde
  * 4 parti kurulumdan oluştuyor Önce Validatör kuruyoruz daha sonra Oracle
  * https://app.infura.io/  sitesine üye oluyoruz goerli Testnet RPC linkini alacağız.
-
+<br>
  ## 🟢 Kurulumlar:
 
  *1 testnet-public-tools/testnet-validator  <br>
@@ -32,10 +33,10 @@
  *3 testnet-public-tools/omnibridge-ui <br>
  *4 testnet-public-tools/omnibridge-alm <br>
 
- 
+ <br>
  ## 🟢 Docker ve güncellemeler::
 
-Eğer  Sunucunuzda Doker yoksa önce kurulum yapmanız gerekiyor 
+Eğer  Sunucunuzda Docker yoksa önce kurulum yapmanız gerekiyor 
 <br>
 ```
 apt update && apt upgrade
@@ -48,7 +49,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 apt-get update
 apt-get install docker-ce docker-ce-cli containerd.io
 ```
-
+<br>
 ## 🟢 1. KURULUM Git clone çekiyoruz
 ```
 screen -S qnetwork
