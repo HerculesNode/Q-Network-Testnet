@@ -31,6 +31,11 @@
  * 2 /omnibridge-oracle.  <br>
  * 3 /omnibridge-ui. <br>
  * 4 /omnibridge-alm <br>
+ 
+ ## 🟢 Sistemi Gereksinimleri
+
+Minimum Gerekinimler <br> 1 CPU <br> 3 GB RAM <br> 30 GB Disk Alanı
+ 
 
 
 ## Sistemi Güncelleme
