@@ -1,7 +1,7 @@
-# Q Network Türkçe Kurulum Rehberi
+# QBlockChain Türkçe Kurulum Rehberi
 <h1 align="center"> <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/FhOBhnLXkAkp0Bk.jpg" width="650"></h1>
-<h1 align="center"> Q-Network-Testnet </h1>
-<h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi by Hercules - Scannerx
+<h1 align="center"> QBlockChain-Testnet </h1>
+<h1 align="center"> Selamlar,  QBlockChain-Testnet Teşvikli Testnet Kurulum rehberi by Hercules
 </h1>
 
 
