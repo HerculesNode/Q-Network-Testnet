@@ -8,8 +8,8 @@
 ### Linkler:
 
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
- * [Q Netwrok Discord Kanalı](https://discord.gg/b5VXuvXN)
- * [Q Netwrok Twitter Kanalı](https://twitter.com/QBlockchain)
+ * [QBlockChain Discord Kanalı](https://discord.gg/b5VXuvXN)
+ * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
  
 
 ## 🟢 Gerekli notlar:
