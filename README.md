@@ -5,6 +5,12 @@
 </h1>
 
 
+## 🟢 Güncelleme
+
+18.11.2022 tarihli güncelleme En alttadır Kurulum sonrası güncellemeyi yapınız.
+
+
+
 ### Linkler:
 
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
@@ -321,3 +327,21 @@ docker-compose up -d
 <BR>
 http://IPADRESİNİZ:8080/
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
+ 
+ 
+ ## 🟢 Güncelleme 18.11.2022
+
+```
+cd  testnet-public-tools/testnet-validator/
+
+git stash && git pull
+
+QCLIENT_IMAGE=qblockchain/q-client:1.2.1
+
+git stash apply && docker-compose pull
+
+docker-compose up -d
+
+docker-compose logs -f --tail "100" 
+```
+ 
