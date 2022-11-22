@@ -13,7 +13,7 @@
 
 ### Linkler:
 
- * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
+ * [Telegram Yardım Kanalımız](https://t.me/QblockchainTurkey)
  * [QBlockChain Discord Kanalı](https://discord.gg/b5VXuvXN)
  * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
  
