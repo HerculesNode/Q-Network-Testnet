@@ -87,6 +87,7 @@ Aşağıdaki komutla `testnet-validator` dosyası içerisinde `mkdir keystore` k
 ```
 cd testnet-public-tools/testnet-validator/
 mkdir keystore
+cd keystore
 touch pwd.txt
 nano pwd.txt
 ```
