@@ -26,10 +26,10 @@
  
 
  * Testnet Teşvikli olduğunu söylüyorlar. Sitesinden inceleyebilirsiniz. 
- * 1. kurulum cd testnet-public-tools/testnet-validator/ dizininde yapılması gerekiyor. 
- * 2. Kurulum cd  testnet-public-tools/omnibridge-oracle/ dizininde yapılması gerekiyor.
- * 3. Kurulum cd  testnet-public-tools/omnibridge-ui/  dizininde yapılması gerekiyor.
- * 4. Kurulum cd  testnet-public-tools/omnibridge-alm/  dizininde yapılması gerekiyor.
+ * 1- kurulum cd testnet-public-tools/testnet-validator/ dizininde yapılması gerekiyor. 
+ * 2- Kurulum cd  testnet-public-tools/omnibridge-oracle/ dizininde yapılması gerekiyor.
+ * 3- Kurulum cd  testnet-public-tools/omnibridge-ui/  dizininde yapılması gerekiyor.
+ * 4- Kurulum cd  testnet-public-tools/omnibridge-alm/  dizininde yapılması gerekiyor.
  
  * 4 parti kurulumdan oluşuyor Önce Validatör kuruyoruz daha sonra Oracle kurulumu yapıyoruz.
  
