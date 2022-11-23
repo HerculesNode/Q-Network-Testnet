@@ -181,7 +181,7 @@ nano docker-compose.yaml
 Dosya içerisinde aşağodaki bölümü düzenliyoruz;
 * `VALIDATOR_ADINIZ` bu bölüme validator adımızı yazıyoruz.
 
-Dosya içerisinde ekleme yapılacak yer aşağıda mevcut. dosya içeriğini silip aşağıdaki kodu düzenleyerek dosyaya yapıştırabilirsiniz.
+Alttaki kodu komple kopyalayın ve docker-compose.yaml dosyasındaki ile değiştirin burada sadece VALİDATÖR-İSMİNİZ yazan kısmı değiştirip kaydedin. ctrl + x Yes diyip kaydedin
 
 ```
 version: "3"
