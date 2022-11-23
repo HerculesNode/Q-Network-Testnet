@@ -347,7 +347,7 @@ docker-compose logs -f --tail "100"
 <br>
  ```
 cd testnet-public-tools/testnet-validator/
-docker compose exec testnet-validator-node geth attach /data/geth.ipc
+docker-compose exec testnet-validator-node geth attach /data/geth.ipc
 admin.addPeer('enode://<ADDRESS>')
 ```
 
