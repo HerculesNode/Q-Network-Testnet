@@ -26,9 +26,14 @@
  
 
  * Testnet Teşvikli olduğunu söylüyorlar. Sitesinden inceleyebilirsiniz. 
- * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde yapıyoruz.
+ * 1. kurulum cd testnet-public-tools/testnet-validator/ dizininde yapılması gerekiyor. 
+ * 2. Kurulum cd  testnet-public-tools/omnibridge-oracle/ dizininde yapılması gerekiyor.
+ * 3. Kurulum cd  testnet-public-tools/omnibridge-ui/  dizininde yapılması gerekiyor.
+ * 4. Kurulum cd  testnet-public-tools/omnibridge-alm/  dizininde yapılması gerekiyor.
+ 
  * 4 parti kurulumdan oluşuyor Önce Validatör kuruyoruz daha sonra Oracle kurulumu yapıyoruz.
-* `https://rpc.ankr.com/eth_rinkeby` Rinkeby Testnet RPC ekleyeceğiz
+ 
+ * `https://rpc.ankr.com/eth_rinkeby` Rinkeby Testnet RPC ekleyeceğiz
 
 
  ## 🟢 Kurulumlar:
@@ -215,7 +220,7 @@ docker-compose logs -f --tail "100"
 ## .env Dosyası Oluşturma
 ```
 cd
-cd  $HOME/testnet-public-tools/omnibridge-oracle/
+cd testnet-public-tools/omnibridge-oracle/
 cp .env.testnet .env
 ```
 Dosya içerisine giriyoruz. (İsterseniz winscp vb. progamla da aaçıp düzenlemeleri yapabilirsiniz.)
@@ -242,7 +247,7 @@ docker-compose logs -f --tail "100"
 
 ```
 cd
-cd  testnet-public-tools/omnibridge-ui/
+cd testnet-public-tools/omnibridge-ui/
 cp .env.testnet .env
 ```
 Dosya içerisine giriyoruz. (İsterseniz winscp vb. progamla da aaçıp düzenlemeleri yapabilirsiniz.)
@@ -262,7 +267,7 @@ docker-compose up -d
 ## .env Dosyası Oluşturma
 ```
 cd
-cd  $HOME/testnet-public-tools/omnibridge-alm/
+cd testnet-public-tools/omnibridge-alm/
 cp .env.testnet .env
 ```
 Dosya içerisine giriyoruz. (İsterseniz winscp vb. progamla da aaçıp düzenlemeleri yapabilirsiniz.)
