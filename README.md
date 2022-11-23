@@ -14,7 +14,7 @@
 ### Linkler:
 
  * [Telegram Yardım Kanalımız](https://t.me/QblockchainTurkey)
- * [QBlockChain Discord Kanalı](https://discord.gg/b5VXuvXN)
+ * [QBlockChain Discord Kanalı](https://discord.gg/aYDmNjrsJC)
  * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
  
 
@@ -114,8 +114,13 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 
 ## Kurulumu Yapılandırma
 
-`.env` dosyası içerisine giriyoruz.
+`.env` dosyası içerisine giriyoruz.<br>
+testnet-public-tools/testnet-validator/  Dizininde bulunan  `.env` dosyasını açın ve yukarda girdiğiniz bilgiler varmı diye kontrol edin yoksa dosya üzerinden girin ve kaydedin.<br>
+
+
 ```
+cd
+cd testnet-public-tools/testnet-validator/
 nano .env
 ```
 Dosyada aşağıdaki yerleri dolduruyoruz.
@@ -123,30 +128,16 @@ Dosyada aşağıdaki yerleri dolduruyoruz.
  - `IP_ADRESI` bölümüne sunucunuzun ip adresini yazıyorsunuz.
  - Son olarak `ctrl x y enter` tuşlayarak dosyayı kaydediyoruz.
 
-```
-QCLIENT_IMAGE=qblockchain/q-client:testnet
-
-ADDRESS=METAMASK_ADRESI
-
-IP=IP_ADRESI
-
-EXT_PORT=30313
-
-BOOTNODE1_ADDR=enode://c610793186e4f719c1ace0983459c6ec7984d676e4a323681a1cbc8a67f506d1eccc4e164e53c2929019ed0e5cfc1bc800662d6fb47c36e978ab94c417031ac8@79.125.97.227:30304
-BOOTNODE2_ADDR=enode://8eff01a7e5a66c5630cbd22149e069bbf8a8a22370cef61b232179e21ba8c7b74d40e8ee5aa62c54d145f7fc671b851e5ccbfe124fce75944cf1b06e29c55c80@79.125.97.227:30305
-BOOTNODE3_ADDR=enode://7a8ade64b79961a7752daedc4104ca4b79f1a67a10ea5c9721e7115d820dbe7599fe9e03c9c315081ccf6a2afb0b6652ee4965e38f066fe5bf129abd6d26df58@79.125.97.227:30306
-```
 <br>
-testnet-public-tools/testnet-validator/  Dizininde bulunan  `.env` dosyasını açın ve yukarda girdiğiniz bilgiler varmı diye kontrol edin yoksa dosya üzerinden girin ve kaydedin.
 
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
 
 ## Matemask Cüzdan aktarma
 
-testnet-public-tools/testnet-validator/keystore/ Dizininde UTC ile başlayan bir json dosyası göreceksiniz bunu bilgisayarınıza indirin ve dosyanın sonuna `.json` yazarak kaydedin. 
+testnet-public-tools/testnet-validator/keystore/ Dizininde UTC ile başlayan bir json dosyası göreceksiniz bunu bilgisayarınıza indirin. 
 <br> Daha sonra Matemask cüzdanınızı açın ve içine json olarak import edin
 <br> daha Sonra bu cüzdanın private keyini alın.
-<br> Aşağıdaki 2 . Kurulum omnibridge-oracle  Bölümünde bu private key lazım olacak.
+<br> Aşağıdaki 2 . Kurulum `omnibridge-oracle`  Bölümünde bu private key lazım olacak.
 
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/utc.PNG" width="650">
 
