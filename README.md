@@ -44,17 +44,17 @@ Minimum Gerekinimler <br> 1 CPU <br> 3 GB RAM <br> 30 GB Disk Alanı
  
 
 
-## Sistemi Güncelleme
+## 🟢 Sistemi Güncelleme
 ```shell
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Gerekli Kütüphanelerin Kurulması
+## 🟢 Gerekli Kütüphanelerin Kurulması
 ```shell
 apt install ca-certificates curl gnupg lsb-release git htop
 ```
 
-## Docker Kurulumu
+## 🟢 Docker Kurulumu
 ```shell
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -65,7 +65,7 @@ docker version
 ```
 
 
-## Docker Compose Yüklenmesi
+## 🟢 Docker Compose Yüklenmesi
 ```shell
 VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
 curl -L "https://github.com/docker/compose/releases/download/"$VER"/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -73,7 +73,7 @@ chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-# 1. KURULUM Q Network Dosyalarının İndirilmesi ve Kurulumu
+## 🟢 1. KURULUM Q Network Dosyalarının İndirilmesi ve Kurulumu
 
 ## Q Network Dosyalarını İndiriyoruz
 ```
@@ -81,7 +81,7 @@ screen -S qnetwork
 git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
 
-## keystore Klasörü ve pwd.txt Dosyası Oluşturulması 
+## 🟢 keystore Klasörü ve pwd.txt Dosyası Oluşturulması 
 Aşağıdaki komutla `testnet-validator` dosyası içerisinde `mkdir keystore` klasörü ve onun içerisine de bize verilecek cüzdanımız için şifremizi yazacağımız `pwd.txt` dosyasını oluşturup bu doyasnın içerisine giriyoruz. Şifremizi yazıp `ctrl x y enter` ile kaydedip çıkıyoruz.
 
 ```
