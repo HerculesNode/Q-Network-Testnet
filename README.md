@@ -242,7 +242,7 @@ docker-compose logs -f --tail "100"
 
 ```
 cd
-cd  $HOME/testnet-public-tools/omnibridge-ui/
+cd  testnet-public-tools/omnibridge-ui/
 cp .env.testnet .env
 ```
 Dosya içerisine giriyoruz. (İsterseniz winscp vb. progamla da aaçıp düzenlemeleri yapabilirsiniz.)
@@ -320,7 +320,7 @@ http://IPADRESİNİZ:8080/
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
  
  
- ## 🟢 Güncelleme 18.11.2022
+ ## 🟢 Güncelleme 18.11.2022  ( Bu tarihten sonra kurulum yaptıysanız güncelleme yapmanıza gerek yok )
 
 ```
 cd  testnet-public-tools/testnet-validator/
