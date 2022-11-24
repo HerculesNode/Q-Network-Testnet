@@ -328,7 +328,7 @@ http://IPADRESİNİZ:8080/
  ## 🟢 Güncelleme 18.11.2022  ( Bu tarihten sonra kurulum yaptıysanız güncelleme yapmanıza gerek yok )
 
 ```
-cd  testnet-public-tools/testnet-validator/
+cd testnet-public-tools/testnet-validator/
 
 git stash && git pull
 
