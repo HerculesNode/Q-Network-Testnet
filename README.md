@@ -101,7 +101,8 @@ nano pwd.txt
 ```
 cd
 cd testnet-public-tools/testnet-validator/
-docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet geth account new --datadir=/data --password=/data/keystore/pwd.txt
+docker-compose run --rm --entrypoint "geth account new --datadir=/data --password=/data/keystore/pwd.txt" testnet-validator-node
+
 ```
 
 Yukarıdaki kodu girdikten sonra aşağıdaki gibi bir çıktı almanız gerekiyor. Eğer böyle bir çıktı aldıysanız, her şey yolundadır. 
