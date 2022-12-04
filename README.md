@@ -121,12 +121,12 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 ## Kurulumu Yapılandırma
 
 `.env` dosyası içerisine giriyoruz.<br>
-testnet-public-tools/testnet-validator/  Dizininde bulunan  `.env` dosyasını açın ve yukarda girdiğiniz bilgiler varmı diye kontrol edin yoksa dosya üzerinden girin ve kaydedin.<br>
 
 
 ```
 cd
 cd testnet-public-tools/testnet-validator/
+cp .env.example .env
 nano .env
 ```
 Dosyada aşağıdaki yerleri dolduruyoruz.
