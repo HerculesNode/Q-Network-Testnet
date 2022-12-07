@@ -326,18 +326,16 @@ http://IPADRESİNİZ:8080/
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/ip.png" width="650">
  
  
- ## 🟢 Güncelleme 18.11.2022  ( Bu tarihten sonra kurulum yaptıysanız güncelleme yapmanıza gerek yok )
+ ## 🟢 Güncelleme 07.12.2022  ( Bu tarihten sonra kurulum yaptıysanız güncelleme yapmanıza gerek yok )
 
 ```
 cd testnet-public-tools/testnet-validator/
 
 git stash && git pull
 
-QCLIENT_IMAGE=qblockchain/q-client:1.2.1
+QCLIENT_IMAGE=qblockchain/q-client:1.2.2
 
-git stash apply && docker-compose pull
-
-docker-compose up -d
+docker-compose pull && docker-compose up -d
 
 docker-compose logs -f --tail "100" 
 ```
