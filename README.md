@@ -5,6 +5,27 @@
 </h1>
 
 
+
+## 🟢 Ödül Programı
+
+ * [Medium Detay](https://medium.com/q-blockchain/q-blockchain-validator-onboarding-program-part-1-validator-incentivized-testnet-567ef6e4002e)
+ * [Ödül Kayıt Linki](https://itn.qdev.li/)
+ 
+ <br> 
+ Kayıt 30 Aralık 2022 tarihine kadar devam edecek Testnet Yaklaşık 3 ay sürecek 01 Ocak 2023 tarihinde başlayacak ve 31 Mart 2023'e kadar sürecek Linkteki adresten kayıt olmanız gerekiyor Kayıt olduktan sonra size bir isim verecek ve aşağıdaki işlemleri yapacaksınız Multi Yasak ve Discord adreslerine girmeniz gerekiyor.
+ 
+ <br><br>
+
+Kayıt sonrası size Örnek  : TN-Hercules-47d34 Böyle bir isim verecek ve bunu değiştirip nodeyi tekrar durdurup başlatmanız gerekiyor. 
+ 
+<br>cd testnet-public-tools/testnet-validator/  
+ 
+dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceksiniz.  
+ 
+
+
+
+
 ## 🟢 Güncelleme
 
 18.11.2022 tarihli güncelleme En alttadır Kurulum sonrası güncellemeyi yapınız.
