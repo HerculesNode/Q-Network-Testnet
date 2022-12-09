@@ -15,7 +15,15 @@
  Kayıt 30 Aralık 2022 tarihine kadar devam edecek Testnet Yaklaşık 3 ay sürecek 01 Ocak 2023 tarihinde başlayacak ve 31 Mart 2023'e kadar sürecek Linkteki adresten kayıt olmanız gerekiyor Kayıt olduktan sonra size bir isim verecek ve aşağıdaki işlemleri yapacaksınız Multi Yasak ve Discord adreslerine girmeniz gerekiyor.
  
  <br><br>
+ 
+Yapmanız Gerekenler Kayıt Linkine tıklayın Matemask adresinizi bağlayın Q network ağına bağlanmanız lazım Yoksa aşağıdaki gibi Matemask ekleyin
 
+* Ağ Adı : Q Test Ağı
+* Yeni RPC URL adresi : https://rpc.qtestnet.org
+* Zincir Kimliği : 35443
+* Para Birimi Sembolü : Q
+* Blok Gezgini URL Adresi : https://explorer.qtestnet.org
+<br>
 Kayıt sonrası size Örnek  : TN-Hercules-47d34 Böyle bir isim verecek ve bunu değiştirip nodeyi tekrar durdurup başlatmanız gerekiyor. 
  
 <br>cd testnet-public-tools/testnet-validator/  
