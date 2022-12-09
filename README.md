@@ -20,7 +20,12 @@ Kayıt sonrası size Örnek  : TN-Hercules-47d34 Böyle bir isim verecek ve bunu
  
 <br>cd testnet-public-tools/testnet-validator/  
  
-dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceksiniz.  
+dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceksiniz. Stats explorer adresinde aşağıdaki gibi görünecek adresiniz
+
+<br>
+
+![image](https://user-images.githubusercontent.com/101635385/206707554-02792278-1508-40fc-a3d8-12a904561a83.png)
+
  
 
 
