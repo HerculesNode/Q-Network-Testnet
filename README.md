@@ -120,13 +120,14 @@ git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
 
 ## 🟢 keystore Klasörü ve pwd.txt Dosyası Oluşturulması 
-Aşağıdaki komutla `testnet-validator` dosyası içerisinde `mkdir keystore` klasörü ve onun içerisine de bize verilecek cüzdanımız için şifremizi yazacağımız `pwd.txt` dosyasını oluşturup bu doyasnın içerisine giriyoruz. Şifremizi yazıp `ctrl x y enter` ile kaydedip çıkıyoruz.
+Aşağıdaki komutla `testnet-validator` dosyası içerisinde `keystore` klasörü ve onun içerisine de bize verilecek cüzdanımız için şifremizi yazacağımız `pwd.txt` dosyasını oluşturup bu doyasnın içerisine giriyoruz. Şifremizi yazıp `ctrl x y enter` ile kaydedip çıkıyoruz.
 
 ```
 cd testnet-public-tools/testnet-validator/
 mkdir keystore
 cd keystore
-touch pwd.txt
+cat > pwd.txt
+ctrl + c
 nano pwd.txt
 ```
 
