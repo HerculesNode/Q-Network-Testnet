@@ -78,7 +78,7 @@ dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceks
  
  ## 🟢 Sistemi Gereksinimleri
 
-Minimum Gerekinimler <br> 1 CPU <br> 3 GB RAM <br> 30 GB Disk Alanı
+* Ekip tarafından önerilen  <br> 4 CPU <br> 8 GB RAM <br> 250 GB Disk Alanı
  
 
 
