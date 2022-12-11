@@ -40,7 +40,7 @@ dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceks
 
 ## 🟢 Güncelleme
 
-18.11.2022 tarihli güncelleme En alttadır Kurulum sonrası güncellemeyi yapınız.
+1.2.2 tarihli güncelleme En alttadır Kurulum sonrası güncellemeyi yapınız.
 
 
 
