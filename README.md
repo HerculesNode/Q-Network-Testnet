@@ -75,6 +75,8 @@ dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceks
  * 2 testnet-public-tools/omnibridge-oracle  <br>
  * 3 testnet-public-tools/omnibridge-ui <br>
  * 4 testnet-public-tools/omnibridge-alm <br>
+
+<br>  2-3-4. kurulumlar Şart Değil Tavsiyem kurmanızdan yana tercih sizin 
  
  ## 🟢 Sistemi Gereksinimleri
 
