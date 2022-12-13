@@ -228,14 +228,31 @@ version: "3"
 services:
   testnet-validator-node:
     image: $QCLIENT_IMAGE
-    entrypoint: ["geth", "--ethstats=VALİDATOR-İSMİNİZ:qstats-testnet@stats.qtestnet.org", "--bootnodes=$BOOTNODE1_ADDR", "--datadir=/data", "--nat=extip:$IP", "--port=$EXT_PORT", "--unlock=$ADDRESS", "--password=/data/keystore/pwd.txt", "--mine", "--miner.threads=1", "--syncmode=full", "--rpc.allow-unprotected-txs", "--testnet", "--verbosity=3", "--miner.gasprice=1"]
+    entrypoint: [
+      "geth",
+      "--testnet",
+      "--datadir=/data",
+      "--syncmode=full",
+      "--ethstats=VALIDATOR_STATS_ID:qstats-testnet@stats.qtestnet.org",
+      "--whitelist=3699041=0xabbe19ba455511260381aaa7aa606b2fec2de762b9591433bbb379894aba55c1",
+      "--bootnodes=$BOOTNODE1_ADDR,$BOOTNODE2_ADDR,$BOOTNODE3_ADDR",
+      "--verbosity=3",
+      "--nat=extip:$IP",
+      "--port=$EXT_PORT",
+      "--unlock=$ADDRESS",
+      "--password=/data/keystore/pwd.txt",
+      "--mine",
+      "--miner.threads=1",
+      "--miner.gasprice=1",
+      "--rpc.allow-unprotected-txs"
+    ]
     volumes:
       - ./keystore:/data/keystore
       - ./additional:/data/additional
       - testnet-validator-node-data:/data
     ports:
-      - $EXT_PORT:8545/tcp
-      - $EXT_PORT:8545/udp
+      - $EXT_PORT:$EXT_PORT
+      - $EXT_PORT:$EXT_PORT/udp
     restart: unless-stopped
 
 volumes:
