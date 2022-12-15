@@ -45,7 +45,7 @@ dizininde bulunan  docker-compose.yaml  dosyasındaki adınızı değiştireceks
 
 
 ### Linkler:
-
+ * [Yeni Node Testnet Telegram Kanalı](https://t.me/HerculesNode)
  * [Telegram Yardım Kanalımız](https://t.me/QblockchainTurkey)
  * [QBlockChain Discord Kanalı](https://discord.gg/aYDmNjrsJC)
  * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
