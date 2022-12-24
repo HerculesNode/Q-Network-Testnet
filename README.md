@@ -129,7 +129,6 @@ Aşağıdaki komutla `testnet-validator` dosyası içerisinde `keystore` klasör
 ```
 cd testnet-public-tools/testnet-validator/
 mkdir keystore
-cd keystore
 echo ŞİFRENİZİ-YAZIN > keystore/pwd.txt
 ```
 
